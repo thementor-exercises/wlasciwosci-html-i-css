@@ -1,0 +1,22 @@
+{
+  "name": "wlasciwosci-html-i-css",
+  "version": "1.0.0",
+  "description": "Zadanie sprawdzajace wiedzę z zakresu HTML i wlasciwosci CSS",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thementor-exercises/wlasciwosci-html-i-css.git"
+  },
+  "author": "BG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thementor-exercises/wlasciwosci-html-i-css/issues"
+  },
+  "homepage": "https://github.com/thementor-exercises/wlasciwosci-html-i-css#readme",
+  "devDependencies": {
+    "http-server": "^13.0.0"
+  }
+}
