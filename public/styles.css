@@ -1,3 +1,61 @@
-body {
-  margin: 0;
+#main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.mainBox {
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
+.dtborder {
+  position: relative;
+  border: 20px solid #ffecb7;
+  background: #ffffff;
+  padding: 60px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  width: 100px;
+}
+.dtborder:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 20px solid sandybrown;
+}
+
+.dtborder:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  border: 20px solid #b7ecb7;
+}
+.data {
+  background-color: white;
+  text-align: center;
+}
+.solid {
+  border-top: 3px solid #c4c4c4;
+}
+#box {
+  height: 100px;
+  line-height: 100px;
+  width: 100px;
+}
+
+#height {
+  width: 256px;
+}
+#width {
+  width: 256px;
 }
