@@ -1,3 +1,32 @@
-body {
-  margin: 0;
+#main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.mainBox {
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
+.bigBox {
+  display: flex;
+  margin: 0px;
+  padding: 20px;
+  border: 20px solid rgb(242, 209, 148);
+  background-color: sandybrown;
+  display: inline-block;
+}
+.smallbox {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  border: 20px solid rgb(183, 236, 183);
+  width: 100px;
+  height: 100px;
+}
+.solid {
+  border-top: 3px solid #c4c4c4;
 }
